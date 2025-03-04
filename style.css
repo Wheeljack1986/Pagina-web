@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+body {
+    font-family: 'Inter', Arial, sans-serif; /* Familia de fuentes */
+    font-size: 20px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #D6FF6B; /* El color del fondo de la página web */
+    color: #FFFFFF; /* El color del texto*/ 
+}
+h1 {
+    color: #FD98FB; /* El color de la cabecera */
+    font-size: 60px; /* El tamaño de la fuente de la cabecera */
+    font-family: 'Inter', Arial, sans-serif; /* La familia tipográfica utilizada en la cabecera */
+    font-style: bold;
+    
+}
+
+h1:hover { 
+  animation: color-change 3s infinite; 
+}
+
+img {
+    width: 400px;
+
+}
+
+iframe {
+  width: 700px;
+  height: 400px;
+}
+
+
+ul {
+    background-color: #5988FF;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #FD98FB;
+    border: 2px solid #000000;
+}
+
+
+
+p  {
+    animation: colorcambia 2s infinite;
+}
+@keyframes color-change {
+    0% {
+      color: #5988FF;
+    }
+  
+    50% {
+      color: #FD98FB;
+    }
+  
+    100% {
+      color: rgb(112, 27, 196);
+    }
+}
+
+
+@keyframes colorcambia {
+    0% {
+      color: #8e8c00;
+    }
+  
+    50% {
+      color: #000000;
+    }
+  
+    100% {
+      color: rgb(134, 132, 4);
+    }
+}
